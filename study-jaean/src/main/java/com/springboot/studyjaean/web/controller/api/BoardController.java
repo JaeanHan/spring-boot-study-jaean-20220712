@@ -16,6 +16,7 @@ public class BoardController {
         System.out.println("게시글 작성 요청");
         System.out.println("title: " + title);
         HttpHeaders headers = new HttpHeaders();
+        System.out.println("test");
         headers.set("Content-Type", "text/html;charset=utf-8");
         return ResponseEntity.ok().headers(headers).body("test OK");
         //return new ResponseEntity<>(title + "게시글 작성 성공", headers, HttpStatus.OK);

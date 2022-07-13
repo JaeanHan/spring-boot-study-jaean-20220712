@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/inteliJ.iml" filepath="$PROJECT_DIR$/.idea/inteliJ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-jaean/study-jaean.iml" filepath="$PROJECT_DIR$/study-jaean/study-jaean.iml" />
+    </modules>
+  </component>
+</project>

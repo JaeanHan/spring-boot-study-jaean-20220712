@@ -1,11 +1,14 @@
 package com.springboot.studyjaean.service.board;
 
 import com.springboot.studyjaean.web.controller.dto.board.CreateBoardReqDto;
+import com.springboot.studyjaean.web.controller.dto.board.CreateBoardRespDto;
+import com.springboot.studyjaean.web.controller.dto.board.ReadBoardRespDto;
 
 public interface BoardService {
-    boolean createBoard(CreateBoardReqDto createBoardReqDto) throws Exception;
+    CreateBoardRespDto createBoard(CreateBoardReqDto createBoardReqDto) throws Exception;
 
-//    public boolean readBoard(CreateBoardReqDto createBoardReqDto) throws Exception;
+    public ReadBoardRespDto readBoard(int boardcode) throws Exception;
+    public ReadBoardRespDto readBoardList(int page) throws Exception;
 
     boolean updateBoard(int boardcode, CreateBoardReqDto createBoardReqDto) throws Exception;
 
